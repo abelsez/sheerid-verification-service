@@ -1,5 +1,3 @@
-import { Helmet } from 'react-helmet-async'
-
 const SEOHead = ({ 
   title = "StudentVerify powered by fastdiscountfinder.com - SheerID Discount Verification",
   description = "Professional SheerID student discount verification service. Get verified for exclusive student discounts from top brands. 100% success rate, 24-48 hour processing.",
@@ -22,7 +20,7 @@ const SEOHead = ({
   }
 
   return (
-    <Helmet>
+    <>
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
@@ -43,7 +41,7 @@ const SEOHead = ({
       <script type="application/ld+json">
         {JSON.stringify(structuredData || defaultStructuredData)}
       </script>
-    </Helmet>
+    </>
   )
 }
 
