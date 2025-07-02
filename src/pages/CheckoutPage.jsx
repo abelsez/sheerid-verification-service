@@ -255,9 +255,7 @@ const CheckoutForm = ({ deal, formData }) => {
               {formData.paymentMethod === 'stripe' && (
                 <div className="mt-4 p-4 border rounded-lg bg-gray-50">
                   <Label htmlFor="card-element">Card Details</Label>
-                  <div className="p-3 border rounded-md mt-1 bg-white">
-                    <CardElement id="card-element" options={cardElementOptions} />
-                  </div>
+                  <CardElement id="card-element" options={cardElementOptions} />
                 </div>
               )}
 
