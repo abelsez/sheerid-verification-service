@@ -87,35 +87,25 @@ const CheckoutForm = ({ deal, formData }) => {
     const cardElement = elements.getElement(CardElement)
 
     // Create PaymentIntent on your backend
-    try {
-      // In a real implementation, this would call your backend
-      // For now, simulate a successful payment after a delay
-      setTimeout(() => {
-        setSuccess(true)
-        setLoading(false)
-        alert('Payment successful! Your verification process has started.')
-      }, 2000)
-      
-      /* Commented out actual Stripe implementation for now
-      const response = await fetch('/.netlify/functions/create-payment-intent', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+         const response = await fetch("/.netlify/functions/create-payment-intent", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           amount: 5500, // $55.00 in cents
           deal_id: deal.id,
           customer_email: formData.email,
         }),
-      })
+      });
 
-      const data = await response.json()
+      const data = await response.json();
 
       if (data.error) {
-        setError(data.error)
-        setLoading(false)
-        return
+        setError(data.error);
+        setLoading(false);
+        return;
       }
 
-      const clientSecret = data.clientSecret
+      const clientSecret = data.clientSecret;
 
       // Confirm the payment on the client
       const { error: confirmError, paymentIntent } = await stripe.confirmCardPayment(clientSecret, {
@@ -126,18 +116,16 @@ const CheckoutForm = ({ deal, formData }) => {
             email: formData.email,
           },
         },
-      })
+      });
 
       if (confirmError) {
-        setError(confirmError.message)
-      } else if (paymentIntent.status === 'succeeded') {
-        setSuccess(true)
-        alert('Payment successful! Your verification process has started.')
+        setError(confirmError.message);
+      } else if (paymentIntent.status === "succeeded") {
+        setSuccess(true);
+        alert("Payment successful! Your verification process has started.");
       } else {
-        setError('Payment failed or was not successful.')
-      }
-      */
-    } catch (err) {
+        setError("Payment failed or was not successful.");
+      }atch (err) {
       setError('An unexpected error occurred.')
       console.error(err)
       setLoading(false)
@@ -301,7 +289,7 @@ const CheckoutForm = ({ deal, formData }) => {
           {formData.paymentMethod === 'venmo' && (
             <div className="mt-4 text-center">
               <p className="text-gray-700 mb-2">Scan the QR code below to pay with Venmo:</p>
-              <img src="/venmo_qr.jpg" alt="Venmo QR Code" className="mx-auto w-48 h-48" />
+              <img src="/venmo_qr.jpg" alt="Venmo QR Code" className="mx-auto w-32 h-32" />
               <p className="text-sm text-gray-600 mt-2">After payment, please complete the form above.</p>
             </div>
           )}
