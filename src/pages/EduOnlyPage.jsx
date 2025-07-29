@@ -251,8 +251,7 @@ const EduOnlyPage = () => {
                 <p className="text-sm text-gray-600 mb-4">
                   Only choose this if you understand the limitations and still want to proceed.
                 </p>
-                <a className="rocketr-embed" data-product="d27d7b0672da" data-color="#2173F8" data-text="EDU Email Only - $37" data-width="200px" href="https://rocketr.net/buy/d27d7b0672da">Buy Now</a>
-              </CardContent>
+             <a class="rocketr-embed" data-product="d27d7b0672da" data-color="#81C868" data-text="Buy Now" data-width="200px"  href="https://rocketr.net/buy/d27d7b0672da">Buy Now</a><script type="text/javascript" src="https://static.rocketr.net/assets/RocketrButton.js"></script></CardContent>
             </Card>
 
             <Card className="border-green-200 bg-green-50">
