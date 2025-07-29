@@ -1,7 +1,7 @@
 import { deals } from '../data/deals'
 
 export const generateSitemap = () => {
-  const baseUrl = 'https://studentverify.com'
+  const baseUrl = 'https://sheerid.fastdiscountfinder.com'
   const currentDate = new Date().toISOString().split('T')[0]
   
   const staticPages = [
@@ -43,7 +43,7 @@ export const generateRobotsTxt = () => {
 Allow: /
 
 # Sitemap
-Sitemap: https://studentverify.com/sitemap.xml
+Sitemap: https://sheerid.fastdiscountfinder.com/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1

@@ -38,7 +38,7 @@ const HomePage = () => {
     "@type": "WebPage",
     "name": "StudentVerify - SheerID Student Discount Verification Service",
     "description": "Professional SheerID student discount verification service. Get verified for exclusive student discounts from top brands like Hulu, The North Face, Autodesk, and more. Works for students and non-students, no .edu email required.",
-    "url": "https://studentverify.com",
+    "url": "https://sheerid.fastdiscountfinder.com",
     "mainEntity": {
       "@type": "Service",
       "name": "SheerID Student Verification",
@@ -62,7 +62,7 @@ const HomePage = () => {
         title="StudentVerify - SheerID Student Discount Verification Service | Get Verified in 24-48 Hours"
         description="Professional SheerID student discount verification service. Get verified for exclusive student discounts from top brands like Hulu, The North Face, Autodesk, and more. 100% success rate, 24-48 hour processing, $55 flat fee. Works for students and non-students, no .edu email required."
         keywords="student discounts, SheerID verification, student deals, college discounts, university savings, student verification service, Hulu student discount, North Face student discount, Autodesk student discount, non-student verification, any email verification"
-        canonicalUrl="https://studentverify.com"
+        canonicalUrl="https://sheerid.fastdiscountfinder.com"
         structuredData={structuredData}
       />
 
