@@ -16,85 +16,103 @@ const DealsPage = () => {
       "brand": "StudentUniverse",
       "description": "Student Discounts on Flights & Hotels – Members Get Up to 60% Off",
       "category": "Travel",
-      "image": "https://logo.clearbit.com/studentuniverse.com"
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/StudentUniverse-467x316.png"
+    },
+    {
+      "brand": "The North Face",
+      "description": "Pack your bags as we have much to explore and learn! Here's 10% for students.",
+      "category": "Outdoor Gear",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/The-North-Face-467x316.png"
+    },
+    {
+      "brand": "TIDAL",
+      "description": "Student Discount",
+      "category": "Streaming Services",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/TIDAL-467x316.png"
+    },
+    {
+      "brand": "Nuuly",
+      "description": "Students enjoy $10 off their monthly clothing rental subscription for Back to School!",
+      "category": "Fashion",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/Nuuly-467x316.png"
+    },
+    {
+      "brand": "Industrie Clothing",
+      "description": "15% Off for Students, Military, First Responders & Medical Professionals",
+      "category": "Fashion",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/Industrie-Clothing-467x316.png"
+    },
+    {
+      "brand": "SoundCloud",
+      "description": "Only $4.99/month for Students",
+      "category": "Streaming Services",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/SoundCloud-467x316.png"
+    },
+    {
+      "brand": "Peacock",
+      "description": "An Exclusive Student Discount — Just for You",
+      "category": "Streaming Services",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/Peacock-467x316.png"
+    },
+    {
+      "brand": "Thule",
+      "description": "Student, Military, and First Responder 20% Off Discounts",
+      "category": "Outdoor Gear",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/Thule-467x316.png"
+    },
+    {
+      "brand": "Codecademy",
+      "description": "Students save over 35% on annual plans with Pro Student",
+      "category": "Technology/Software",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/Codecademy-467x316.png"
+    },
+    {
+      "brand": "Hulu",
+      "description": "Students: Get Hulu For Just $1.99/Month",
+      "category": "Streaming Services",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/Hulu-467x316.png"
+    },
+    {
+      "brand": "Puffy",
+      "description": "Students Save $1,425 on Any Puffy Mattress, Including Luxury Bedding Gifts",
+      "category": "Lifestyle",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/Puffy-467x316.png"
+    },
+    {
+      "brand": "Back Market",
+      "description": "Students get $20 off everything",
+      "category": "Technology",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/Back-Market-467x316.png"
+    },
+    {
+      "brand": "Bulwark",
+      "description": "Exclusive Savings for Military, Students, and Teachers",
+      "category": "Apparel",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/Bulwark-467x316.png"
+    },
+    {
+      "brand": "Adorama",
+      "description": "Students Get Exclusive Pricing",
+      "category": "Technology",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/Adorama-467x316.png"
+    },
+    {
+      "brand": "UGG",
+      "description": "UGG: Community Heroes Offer",
+      "category": "Fashion",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/UGG-467x316.png"
+    },
+    {
+      "brand": "Autodesk",
+      "description": "Autodesk: Exclusive Education Offer",
+      "category": "Technology/Software",
+      "image": "https://shop.sheerid.com/wp-content/uploads/2024/01/Autodesk-467x316.png"
     },
     {
       "brand": "Madewell",
       "description": "15% Off for Community Heroes",
       "category": "Fashion",
       "image": "https://logo.clearbit.com/madewell.com"
-    },
-    {
-      "brand": "The North Face",
-      "description": "Pack your bags as we have much to explore and learn! Here's 10% for students.",
-      "category": "Outdoor Gear",
-      "image": "https://logo.clearbit.com/thenorthface.com"
-    },
-    {
-      "brand": "TIDAL",
-      "description": "Student Discount",
-      "category": "Streaming Services",
-      "image": "https://logo.clearbit.com/tidal.com"
-    },
-    {
-      "brand": "Nuuly",
-      "description": "Students enjoy $10 off their monthly clothing rental subscription for Back to School!",
-      "category": "Fashion",
-      "image": "https://logo.clearbit.com/nuuly.com"
-    },
-    {
-      "brand": "Industrie Clothing",
-      "description": "15% Off for Students, Military, First Responders & Medical Professionals",
-      "category": "Fashion",
-      "image": "https://logo.clearbit.com/industrieclothing.com"
-    },
-    {
-      "brand": "SoundCloud",
-      "description": "Only $4.99/month for Students",
-      "category": "Streaming Services",
-      "image": "https://logo.clearbit.com/soundcloud.com"
-    },
-    {
-      "brand": "Peacock",
-      "description": "An Exclusive Student Discount — Just for You",
-      "category": "Streaming Services",
-      "image": "https://logo.clearbit.com/peacocktv.com"
-    },
-    {
-      "brand": "Hulu",
-      "description": "Students: Get Hulu For Just $1.99/Month",
-      "category": "Streaming Services",
-      "image": "https://logo.clearbit.com/hulu.com"
-    },
-    {
-      "brand": "Puffy",
-      "description": "Students Save $1,425 on Any Puffy Mattress, Including Luxury Bedding Gifts",
-      "category": "Lifestyle",
-      "image": "https://logo.clearbit.com/puffy.com"
-    },
-    {
-      "brand": "Back Market",
-      "description": "Students get $20 off everything",
-      "category": "Technology",
-      "image": "https://logo.clearbit.com/backmarket.com"
-    },
-    {
-      "brand": "Bulwark",
-      "description": "Exclusive Savings for Military, Students, and Teachers",
-      "category": "Apparel",
-      "image": "https://logo.clearbit.com/bulwark.com"
-    },
-    {
-      "brand": "Adorama",
-      "description": "Students Get Exclusive Pricing",
-      "category": "Technology",
-      "image": "https://logo.clearbit.com/adorama.com"
-    },
-    {
-      "brand": "Autodesk",
-      "description": "Autodesk: Exclusive Education Offer",
-      "category": "Technology/Software",
-      "image": "https://logo.clearbit.com/autodesk.com"
     },
     {
       "brand": "Alibaba Cloud",

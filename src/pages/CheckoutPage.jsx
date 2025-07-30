@@ -1,9 +1,13 @@
+import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { CheckCircle, Shield, Zap, Star } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import RocketrModal from '@/components/RocketrModal'
 
 const CheckoutPage = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
   const features = [
     "Professional SheerID verification accepted by all major brands",
     "Works with any email address (Gmail, Outlook, iCloud, etc.)",
@@ -30,6 +34,14 @@ const CheckoutPage = () => {
       rating: 5
     }
   ]
+
+  const handleCompleteVerification = () => {
+    setIsModalOpen(true)
+  }
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false)
+  }
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -74,16 +86,12 @@ const CheckoutPage = () => {
               ))}
             </div>
             <div className="pt-4">
-              <a 
-                className="rocketr-embed w-full inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-gradient-to-r from-blue-600 to-indigo-600 text-white hover:from-blue-700 hover:to-indigo-700 h-10 px-4 py-2"
-                data-product="891d333d4d77" 
-                data-color="#2173F8" 
-                data-text="Get Started Today - $55" 
-                data-width="100%"
-                href="https://rocketr.net/buy/891d333d4d77"
+              <Button 
+                onClick={handleCompleteVerification}
+                className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700"
               >
                 Get Started Today - $55
-              </a>
+              </Button>
             </div>
           </CardContent>
         </Card>
@@ -238,6 +246,16 @@ const CheckoutPage = () => {
           </div>
         </div>
       </div>
+
+      {/* Rocketr Modal */}
+      <RocketrModal
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+        productId="891d333d4d77"
+        title="Complete Verification"
+        price="55"
+        description="Professional SheerID verification accepted by all major brands"
+      />
     </div>
   )
 }
