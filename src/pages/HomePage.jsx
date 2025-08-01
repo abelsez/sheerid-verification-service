@@ -53,10 +53,10 @@ const HomePage = () => {
                 size="lg" 
                 className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-lg px-8 py-3"
               >
-                <Link to="/checkout">
-                  Get Verified Now - $55
+                <a href="https://fastdiscountfinder.com/sheerid.html">
+                  Get Verified Now - $65
                   <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
+                </a>
               </Button>
               <Button 
                 asChild 
@@ -126,7 +126,7 @@ const HomePage = () => {
                 asChild 
                 className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700"
               >
-                <Link to="/checkout">Start Verification</Link>
+                <a href="https://fastdiscountfinder.com/sheerid.html">Start Verification - $65</a>
               </Button>
             </div>
           </div>
@@ -149,15 +149,15 @@ const HomePage = () => {
               variant="secondary"
               className="text-lg px-8 py-3 bg-white text-blue-600 hover:bg-gray-100"
             >
-              <Link to="/checkout">Get Verified - $55</Link>
+              <a href="https://fastdiscountfinder.com/sheerid.html">Get Verified - $65</a>
             </Button>
             <Button 
               asChild 
               size="lg" 
               variant="outline"
-              className="text-lg px-8 py-3 border-2 border-white text-white hover:bg-white hover:text-blue-600"
+              className="text-lg px-8 py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-50"
             >
-              <Link to="/edu-only">EDU Email Only - $37</Link>
+              <a href="https://fastdiscountfinder.com/payment.html">EDU Email Only - $37</a>
             </Button>
           </div>
         </div>

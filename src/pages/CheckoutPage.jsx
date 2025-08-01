@@ -3,10 +3,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { CheckCircle, Shield, Zap, Star } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import RocketrModal from '@/components/RocketrModal'
 
-const CheckoutPage = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false)
 
   const features = [
     "Professional SheerID verification accepted by all major brands",
@@ -35,13 +32,6 @@ const CheckoutPage = () => {
     }
   ]
 
-  const handleCompleteVerification = () => {
-    setIsModalOpen(true)
-  }
-
-  const handleCloseModal = () => {
-    setIsModalOpen(false)
-  }
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -70,7 +60,7 @@ const CheckoutPage = () => {
               Complete Verification
             </CardTitle>
             <div className="text-4xl font-bold text-blue-600 mt-2">
-              $55
+              $65
             </div>
             <p className="text-gray-600 mt-2">
               Full access guaranteed
@@ -86,12 +76,12 @@ const CheckoutPage = () => {
               ))}
             </div>
             <div className="pt-4">
-              <Button 
-                onClick={handleCompleteVerification}
-                className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700"
+              <a 
+                href="https://fastdiscountfinder.com/sheerid.html"
+                className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 text-white"
               >
-                Get Started Today - $55
-              </Button>
+                Get Started Today - $65
+              </a>
             </div>
           </CardContent>
         </Card>
@@ -136,12 +126,8 @@ const CheckoutPage = () => {
             </div>
             <div className="pt-4">
               <a 
-                className="rocketr-embed w-full inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-gray-600 text-white hover:bg-gray-700 h-10 px-4 py-2"
-                data-product="37dollar-product-id" 
-                data-color="#6B7280" 
-                data-text="Get EDU Email - $37" 
-                data-width="100%"
-                href="https://rocketr.net/buy/37dollar-product-id"
+                href="https://fastdiscountfinder.com/payment.html"
+                className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 text-white"
               >
                 Get EDU Email - $37
               </a>

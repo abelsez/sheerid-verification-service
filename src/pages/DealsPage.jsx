@@ -425,7 +425,7 @@ const DealsPage = () => {
           size="lg" 
           className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700"
         >
-          <Link to="/checkout">Get Verified to Access These Deals</Link>
+          <a href="https://fastdiscountfinder.com/sheerid.html">Get Verified to Access These Deals - $65</a>
         </Button>
       </div>
 
