@@ -5,6 +5,8 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/sheerid-verification-service/',
+  publicDir: 'public',
   plugins: [react(),tailwindcss()],
   resolve: {
     alias: {

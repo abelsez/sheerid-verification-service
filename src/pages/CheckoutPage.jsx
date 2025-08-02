@@ -201,9 +201,6 @@ const CheckoutPage = () => {
 
                 <div className="text-center">
                   <p className="text-xs text-gray-500">
-                    Secure payment processing by Rocketr
-                  </p>
-                  <p className="text-xs text-gray-500">
                     SSL encrypted & secure
                   </p>
                 </div>

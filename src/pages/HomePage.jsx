@@ -84,12 +84,12 @@ const HomePage = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
-              <a href="https://fastdiscountfinder.com/sheerid.html" target="_blank" rel="noopener noreferrer">
+              <Link to="/checkout/new-sheerid-student-deals-information">
                 <Button size="lg" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-8 py-3">
                   Get Verified Now - $65
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -188,11 +188,11 @@ const HomePage = () => {
           <p className="text-xl mb-8 text-blue-100">
             Join thousands of users who trust us for their SheerID verification needs, regardless of student status or email type.
           </p>
-          <a href="https://fastdiscountfinder.com/sheerid.html" target="_blank" rel="noopener noreferrer">
+          <Link to="/checkout/new-sheerid-student-deals-information">
             <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-8 py-3">
               Get Started Today - $65
             </Button>
-          </a>
+          </Link>
         </div>
       </section>
     </div>
