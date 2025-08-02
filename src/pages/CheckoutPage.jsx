@@ -85,8 +85,9 @@ const CheckoutPage = () => {
                       <span>Valid for 12+ months</span>
                     </div>
                   </div>
-                  
-
+                  <a href="https://fastdiscountfinder.com/sheerid.html" target="_blank" rel="noopener noreferrer">
+                    <Button className="w-full">Buy Now ($65)</Button>
+                  </a>
                 </div>
 
                 <Separator />
@@ -121,7 +122,9 @@ const CheckoutPage = () => {
                       <span>May not work with newer discount platforms</span>
                     </div>
                   </div>
-                  
+                  <a href="https://fastdiscountfinder.com/payment.html" target="_blank" rel="noopener noreferrer">
+                    <Button className="w-full">Buy Now ($37)</Button>
+                  </a>
                   <div className="mb-4">
                     <Link to="/edu-only" className="text-blue-600 hover:text-blue-800 text-sm underline">
                       Learn more about limitations →
