@@ -84,9 +84,9 @@ const HomePage = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>
-              <Link to="/deals">
+              <Link to="/sheerid.html">
                 <Button size="lg" className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-8 py-3">
-                  Get Verified Now
+                  Get Verified Now - $65
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>
               </Link>

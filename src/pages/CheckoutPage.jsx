@@ -86,10 +86,7 @@ const CheckoutPage = () => {
                     </div>
                   </div>
                   
-                  {/* Rocketr Button for $55 */}
-                  <div className="text-center">
-                    <a href="https://fastdiscountfinder.com/sheerid.html" className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">Get Verified Now - $65</a>
-                  </div>
+
                 </div>
 
                 <Separator />
@@ -131,10 +128,7 @@ const CheckoutPage = () => {
                     </Link>
                   </div>
                   
-                  {/* Rocketr Button for $37 */}
-                  <div className="text-center">
-                    <a href="https://fastdiscountfinder.com/payment.html" className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">Get Verified Now - $37</a>
-                  </div>
+
                 </div>
 
                 {/* Important Notice */}
