@@ -217,7 +217,7 @@ const CheckoutPage = () => {
       </div>
 
       {/* Load Rocketr Script */}
-      <script type="text/javascript" src="https://static.rocketr.net/assets/RocketrButton.js"></script>
+
     </div>
   )
 }
