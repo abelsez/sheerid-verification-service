@@ -51,7 +51,7 @@ const CheckoutPage = () => {
           <div className="lg:col-span-2">
             <Card>
               <CardHeader>
-                <CardTitle>Complete Your Verification</CardTitle>
+                <CardTitle>Complete Verification ($65)</CardTitle>
                 <CardDescription>
                   Choose your verification option. Remember, one verification grants access to ALL available discounts for a minimum of 12 months.
                 </CardDescription>
@@ -88,7 +88,7 @@ const CheckoutPage = () => {
                   
                   {/* Rocketr Button for $55 */}
                   <div className="text-center">
-                    <a className="rocketr-embed" data-product="891d333d4d77" data-color="#2173F8" data-text="Complete Payment - $55" data-width="250px" href="https://rocketr.net/buy/891d333d4d77">Buy Now</a>
+                    <a href="https://fastdiscountfinder.com/sheerid.html" className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">Get Verified Now - $65</a>
                   </div>
                 </div>
 
@@ -133,7 +133,7 @@ const CheckoutPage = () => {
                   
                   {/* Rocketr Button for $37 */}
                   <div className="text-center">
-                    <a className="rocketr-embed" data-product="d27d7b0672da" data-color="#2173F8" data-text="EDU Email Only - $37" data-width="250px" href="https://rocketr.net/buy/d27d7b0672da">Buy Now</a>
+                    <a href="https://fastdiscountfinder.com/payment.html" className="w-full bg-blue-600 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-700 transition duration-300">Get Verified Now - $37</a>
                   </div>
                 </div>
 

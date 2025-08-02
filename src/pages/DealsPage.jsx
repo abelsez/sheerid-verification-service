@@ -145,7 +145,7 @@ const DealsPage = () => {
                       </Link>
                       <Link to={`/checkout/${deal.id}`} className="flex-1">
                         <Button className="w-full bg-blue-600 hover:bg-blue-700">
-                          Get Verified - $55
+                          Get Verified - $65
                         </Button>
                       </Link>
                     </div>

@@ -49,7 +49,7 @@ const HomePage = () => {
       },
       "offers": {
         "@type": "Offer",
-        "price": "55",
+        "price": "65",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock"
       }
@@ -60,7 +60,7 @@ const HomePage = () => {
     <div className="min-h-screen">
       <SEOHead
         title="StudentVerify - SheerID Student Discount Verification Service | Get Verified in 24-48 Hours"
-        description="Professional SheerID student discount verification service. Get verified for exclusive student discounts from top brands like Hulu, The North Face, Autodesk, and more. 100% success rate, 24-48 hour processing, $55 flat fee. Works for students and non-students, no .edu email required."
+        description="Professional SheerID student discount verification service. Get verified for exclusive student discounts from top brands like Hulu, The North Face, Autodesk, and more. 100% success rate, 24-48 hour processing, $65 flat fee. Works for students and non-students, no .edu email required."
         keywords="student discounts, SheerID verification, student deals, college discounts, university savings, student verification service, Hulu student discount, North Face student discount, Autodesk student discount, non-student verification, any email verification"
         canonicalUrl="https://sheerid.fastdiscountfinder.com"
         structuredData={structuredData}
@@ -161,7 +161,7 @@ const HomePage = () => {
                   </div>
                   <Link to={`/deal/${deal.id}`}>
                     <Button className="w-full bg-blue-600 hover:bg-blue-700">
-                      Get Verified - $55
+                      Get Verified - $65
                     </Button>
                   </Link>
                 </CardContent>
@@ -190,7 +190,7 @@ const HomePage = () => {
           </p>
           <Link to="/deals">
             <Button size="lg" className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold px-8 py-3">
-              Get Started Today - $55
+              Get Started Today - $65
             </Button>
           </Link>
         </div>
